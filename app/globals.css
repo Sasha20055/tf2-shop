@@ -2,6 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
+.cardImage {
+  background: url("../images/tf-key.png") center no-repeat;
+  padding: 70px 50px;
+}
+
+.cardFooterBtns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-body {
+  padding: 0;
+}
+
+.accordion-body .list-group {
+  border-radius: 0;
+}
+
+.cardFooterBtns button {
+  width: 45%;
+}
+
+.footerLeftLinks {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: black;
+  max-width: 100%;
+}
+
+nav .active {
+  color: #6c757d !important;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
